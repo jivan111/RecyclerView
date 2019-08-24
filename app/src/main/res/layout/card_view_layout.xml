@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="image"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_toRightOf="@+id/circleimage"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"/>
+    <!--<androidx.cardview.widget.CardView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/views"-->
+        <!--app:cardCornerRadius="10dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--app:cardElevation="10dp"-->
+        <!--&gt;-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:padding="10dp"-->
+            <!--&gt;-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:scaleType="fitCenter"-->
+                <!--app:srcCompat="@drawable/jivan2"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_toRightOf="@+id/imageView"-->
+                <!--android:text="Jivan"-->
+
+                <!--android:textSize="24sp"></TextView>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/textView"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_toRightOf="@+id/imageView"-->
+
+                <!--android:text="jivanmainali1@gmail.com"-->
+
+
+                <!--android:textSize="24sp" />-->
+
+            <!--<CheckBox-->
+                <!--android:id="@+id/checkBox"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/textView2"-->
+                <!--android:layout_marginTop="10dp"-->
+
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--/>-->
+
+
+
+
+        <!--</RelativeLayout>-->
+    <!--</androidx.cardview.widget.CardView>-->
+
+
+</RelativeLayout>
